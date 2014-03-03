@@ -1,0 +1,14 @@
+PODS:
+  - AMPImageHolder (0.1.0)
+
+DEPENDENCIES:
+  - AMPImageHolder (from `../AMPImageHolder.podspec`)
+
+EXTERNAL SOURCES:
+  AMPImageHolder:
+    :path: ../AMPImageHolder.podspec
+
+SPEC CHECKSUMS:
+  AMPImageHolder: 98a1803ba720e06e48984cd415482260602a419d
+
+COCOAPODS: 0.29.0
