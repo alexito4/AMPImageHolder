@@ -11,7 +11,7 @@
 @implementation AMPImageHolder
 
 + (NSURL *)randomImage {
-    return [NSURL URLWithString:@"http://imageholder.herokuapp.com/ph/random"];
+    return [NSURL URLWithString:[NSString stringWithFormat:@"http://imageholder.herokuapp.com/any/%f", [[NSDate date] timeIntervalSince1970]]];
 }
 
 @end
