@@ -1,0 +1,7 @@
+pod "AMPImageHolder", :path => "../AMPImageHolder.podspec"
+
+target "Demo" do
+end
+
+target "DemoTests" do
+end
