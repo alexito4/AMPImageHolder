@@ -1,3 +1,4 @@
 platform :ios, '7.0'
 
 pod "AMPImageHolder", :path => "../AMPImageHolder.podspec"
+pod 'AFNetworking', '~> 2.2'
