@@ -1,18 +1,15 @@
 Pod::Spec.new do |s|
   s.name             = "AMPImageHolder"
   s.version          = "0.1.0"
-  s.summary          = "A short description of AMPImageHolder."
-  s.description      = <<-DESC
-                       An optional longer description of AMPImageHolder
-
-                       * Markdown format.
-                       * Don't worry about the indent, we strip it!
-                       DESC
-  s.homepage         = "http://EXAMPLE/NAME"
-  s.screenshots      = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
+  s.summary          = "A little class to use the Imageholder API in your Apps."
+  #s.description      = <<-DESC
+  #                     A little class to use the Imageholder API in your Apps.
+  #                     DESC
+  s.homepage         = "https://github.com/alexito4/AMPImageHolder"
+  #s.screenshots      = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "Alejandro Martinez" => "alexito4@gmail.com" }
-  s.source           = { :git => "http://EXAMPLE/NAME.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/alexito4/AMPImageHolder.git", :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/NAME'
 
   # s.platform     = :ios, '5.0'
