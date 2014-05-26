@@ -22,10 +22,28 @@
 
 #import <Foundation/Foundation.h>
 
+/**
+ *  A simple wrapper around the Imageholder API.
+ *  It composes the URLs for you.
+ */
 @interface AMPImageHolder : NSObject
 
+/**
+ *  Returns a URL that will give you a random image.
+ *  You should call this method each time you want an image.
+ *
+ *  @return NSURL to a random image.
+ */
 + (NSURL *)randomImage;
 
+/**
+ *  Returns a URL that will give you a random image.
+ *  You should call this method each time you want an image.
+ *
+ *  @param size The specific size for the image you want to display.
+ *
+ *  @return NSURL to a random image.
+ */
 + (NSURL *)randomImageWithSize:(CGSize)size;
 
 @end
