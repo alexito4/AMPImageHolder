@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "AMPImageHolder"
-  s.version          = "0.1.0"
+  s.version          = "0.1.1"
   s.summary          = "A little class to use the Imageholder API in your Apps."
   #s.description      = <<-DESC
   #                     A little class to use the Imageholder API in your Apps.
